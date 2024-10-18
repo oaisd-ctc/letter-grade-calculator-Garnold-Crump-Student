@@ -6,7 +6,7 @@ class Program
     {
 
         Console.WriteLine("Enter the number score you have in class.");
-        int score = Convert.ToInt32(Console.ReadLine());
+        double score = double.Parse(Console.ReadLine());
         if (score >= 100)
         {
             Console.WriteLine("Letter Grade: A+");
