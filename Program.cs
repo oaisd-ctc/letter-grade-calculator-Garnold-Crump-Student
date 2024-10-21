@@ -38,7 +38,7 @@ class Program
             Console.WriteLine(" Keep trying!");
         }
 
-        if (score <= 59)
+        if (score <= 59.99)
         {
             Console.WriteLine("Letter Grade: E");
             Console.WriteLine(" Don’t give up!");
